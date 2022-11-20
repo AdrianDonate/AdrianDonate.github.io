@@ -897,6 +897,19 @@ body{
 
 }
 
+@media screen and (max-width: 400px){
+    .container-form form .campo, textarea{
+        max-width: 230px;
+        min-width: 230px;
+         
+    }
+    .container-form form textarea{
+        max-width: 230px;
+        min-width: 230px;
+        
+    }
+}
+
 @media screen and (max-width: 350px){
     .container-form form .campo, textarea{
         max-width: 230px;
